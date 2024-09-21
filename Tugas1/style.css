@@ -1,0 +1,80 @@
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        h1 {
+            color: #000000;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .profile-pic {
+            display: block;
+            margin: 0 auto;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+        .description {
+            margin-top: 20px;
+            font-size: 1.1em;
+        }
+        .info {
+            margin: 20px 0;
+        }
+        .info h2 {
+            color: #000000;
+            margin-bottom: 10px;
+        }
+        .favorite-foods {
+            list-style-type:none;
+            padding-left: 0;
+        }
+        .favorite-foods li {
+            margin: 10px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #4682b4;
+            color: white;
+        }
+        td {
+            background-color: #f0f8ff;
+        }
+        .links {
+            margin-top: 20px;
+        }
+        .links a {
+            text-decoration: none;
+            color: white;
+            background-color: #4682b4;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin: 0 5px;
+            display: inline-block;
+        }
+        .links a:hover {
+            background-color: #5b9bd5;
+        }
